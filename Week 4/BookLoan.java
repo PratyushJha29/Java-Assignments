@@ -8,10 +8,8 @@ class Book {
     Book(String title, String author, String bookCode) {
         if (title == null || title.isBlank())
             throw new IllegalArgumentException();
-
         if (author == null || author.isBlank())
             throw new IllegalArgumentException();
-
         if (bookCode == null || bookCode.isBlank())
             throw new IllegalArgumentException();
 
@@ -28,7 +26,6 @@ class Book {
         loaned = true;
         return true;
     }
-
     boolean returnBook() {
         if (!loaned)
             return false;
