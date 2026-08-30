@@ -1,4 +1,3 @@
-
 class ScoreBox {
     private int score;
 
@@ -18,7 +17,6 @@ class ScoreBox {
             this.score = score;
     }
 }
-
 public class ObjectReferenceLab {
 
     static void addBonus(ScoreBox box, int bonus) {
